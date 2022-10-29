@@ -1,7 +1,4 @@
 package assessment;
-
-import java.util.Arrays;
-import java.util.List;
 import java.util.Scanner;
 
 public class ArrayAscDec {
@@ -38,7 +35,7 @@ public class ArrayAscDec {
             }
             oddArr[j]=a;
         }
-        for(int i=1;i<length/2+1;i++){
+        for(int i=1;i<length/2-1;i++){
             int j=i;
             int a=evenArr[i];
             while((j>0)&&evenArr[j-1]>a){
@@ -47,12 +44,12 @@ public class ArrayAscDec {
             }
             evenArr[j]=a;
         }
-        for(int i=0;i<length/2+1;i++)
-            System.out.println(oddArr[i]);
+        /*for(int i=0;i<length/2+1;i++)
+            System.out.println(oddArr[i]);*/
         for(int i=0;i<length/2+1;i++){
-            System.out.println(oddArr[i]);
+            System.out.print(oddArr[i]);
             try {
-                System.out.println(evenArr[length / 2 - i - 1]);
+                System.out.print(evenArr[length / 2 - i - 1]);
             }catch (ArrayIndexOutOfBoundsException e){
 
             }

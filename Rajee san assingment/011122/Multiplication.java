@@ -1,0 +1,30 @@
+package onenov;
+
+import java.util.Scanner;
+
+public class Multiplication {
+    public static void main(String[] args) {
+        Multiplication multiplication = new Multiplication();
+        multiplication.getInput();
+    }
+    private void getInput(){
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter the number 1: ");
+        int number1 = sc.nextInt();
+        System.out.println("Enter the number 2: ");
+        int number2 = sc.nextInt();
+        process(number1,number2);
+    }
+    private void process(int n1,int n2){
+        int answer = 0, count = 0;
+        while (n1 > 0)
+        {
+            if (n1 % 2 == 1)
+                answer += n2 << count;
+            count++;
+            n1 /= 2;
+        }
+        System.out.println(answer);
+    }
+
+}

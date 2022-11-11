@@ -1,1 +1,7 @@
-
+1. Given a railway seat number, the task is to check whether it is a valid seat number or not. 
+Also print its berth type i.e lower berth, middle berth, upper berth, side lower berth, side upper berth as per the figure below.
+ 
+ Input: 10 
+Output: middle berth
+Input: 7 
+Output: side lower berth

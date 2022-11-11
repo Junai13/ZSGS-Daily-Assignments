@@ -13,7 +13,11 @@ public class SeatDetails {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter the sear number: ");
         int seatNumber = sc.nextInt();
-        seatDetails(seatNumber);
+        if(seatNumber<=0 || seatNumber>72){
+            System.out.println("Please enter a valid seat number");
+            getInput();
+        }else
+            seatDetails(seatNumber);
     }
     private void seatDetails(int number){
         int[] sideBreath = new int[]{7,8,15,16,23,24,31,32,39,40,47,48,55,56,63,64,71,72};

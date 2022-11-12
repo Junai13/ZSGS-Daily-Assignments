@@ -1,0 +1,5 @@
+SELECT * FROM `employee` WHERE
+    `Salary` = (SELECT DISTINCT `Salary` FROM `employee` ORDER BY `salary` DESC
+     LIMIT 1 OFFSET 3
+     )
+LIMIT 1;

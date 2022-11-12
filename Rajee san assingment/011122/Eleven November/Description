@@ -32,3 +32,36 @@ Input:   dt1 = {1, 2, 2000};
 Output: 1461
 Number of days is 365*4 + 1
 ____________________________________________________________________________________________________________________________________________________
+
+
+Given a square matrix, turn it by 90 degrees in an anti-clockwise direction without using any extra space
+
+Examples: 
+
+Input:
+Matrix:    1  2  3
+               4  5  6
+               7  8  9
+
+Output:  3  6  9 
+               2  5  8 
+               1  4  7
+               
+__________________________________________________________________________________________________________________
+
+
+4. Write a function to find the longest common prefix string amongst an array of strings.
+
+If there is no common prefix, return an empty string "".
+
+ 
+
+Example 1:
+
+Input: strs = ["flower","flow","flight"]
+Output: "fl"
+Example 2:
+
+Input: strs = ["dog","racecar","car"]
+Output: ""
+Explanation: There is no common prefix among the input strings.

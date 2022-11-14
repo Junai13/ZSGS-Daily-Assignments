@@ -1,0 +1,41 @@
+Question 1:
+A string S  said to be "Beautiful" if the following criteria is satisfied 
+Take the string S and take its reverse. 
+Take the absolute difference of ASCII values of adjacent characters in both the strings. 
+If this list of absolute differences is the same for both the original string and its reverse.
+
+Note: You should solve this without using any extra memory
+
+Example
+S = "lmnop"
+
+The ASCII values of the characters of the original string are [108, 109, 110, 111, 112] and 
+the ASCII values of the reversed string is [112, 111, 110, 109, 108]. The absolute differences of the adjacent elements for both strings are [1,1,1,1] , so the string is Beautiful.
+
+Sample Input 1
+acxz
+
+Sample Output 1
+YES
+
+Sample Input 2
+ivvkx
+
+Sample Output 2
+NO
+
+
+Question 2:
+Find the minimum platforms needed to avoid delay in the train arrival
+
+Trains arrival   = {9:00, 9:40, 9:50, 11:00, 15:00, 18:00} 
+Trains departure ={9:10, 12:00, 11:20, 11:30, 19:00, 20:00} 
+
+Question 3:
+
+In keypad handset, given the button presses, print the equivalent text message. A keypad handset has alphabets paired to number buttons. 2 is paired to "abc", 3 with "def", 4("ghi"), 5("jkl"), 6("mno"),7("pqrs"),8("tuv"),9("wxyz"). 0 is paired with space. # is pressed to type a character in uppercase. A button has to be pressed n number of times for the corresponding character to be typed. Eg: to type 'c', button 2 has to be pressed 3 times. Given the sequence of button presses, print the equivalent character. Assume that the input button sequence is meant for text message containing only alphabets.
+Sample Input 
+#9999-666-44-666
+
+Sample Output 
+ZOHO

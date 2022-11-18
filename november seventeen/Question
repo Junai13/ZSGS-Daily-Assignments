@@ -1,1 +1,48 @@
+1) Write a program to sort the elements in odd positions in descending order and elements in ascending order
 
+Eg 1: Input: 13,2 4,15,12,10,5
+        Output: 13,2,12,10,5,15,4
+Eg 2: Input: 1,2,3,4,5,6,7,8,9
+        Output: 9,2,7,4,5,6,3,8,1
+
+
+2) Write a program to give the following output for the given input
+
+Eg 1: Input: a1b10
+       Output: abbbbbbbbbb
+Eg: 2: Input: b3c6d15
+          Output: bbbccccccddddddddddddddd
+The number varies from 1 to 99.
+
+
+3)Find if a String2 is substring of String1. If it is, return the index of the first occurrence. else return -1.
+
+Eg 1:Input:
+        String 1: test123string
+         String 2: 123
+        Output: 4
+Eg 2: Input:
+        String 1: testing12
+        String 2: 1234 
+        Output: -1
+
+4) Using Recursion reverse the string such as
+
+Eg 1: Input: one two three
+      Output: three two one
+Eg 2: Input: I love india
+      Output: india love I
+
+5) Display the diagonal pattern for the string of odd length.
+Sample Input:
+Enter the String : Eight
+Sample Output:
+           g
+        i       h
+    e               t
+        i        h
+            g
+Sample Input 2:
+Enter the string : ZOHO
+Sample Output 2:
+Not Possible
